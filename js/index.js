@@ -23,7 +23,7 @@ function howsTheWeather(temperature) {
     response = "brisk";
   } else if (temperature >= 40 && temperature <= 65) {
     response = "a little chilly";
-  } else if (temperature > 85) {
+  } else if (temperature >= 85) {
     response = "too dang hot";
   } else {
     response = "perfect";
@@ -68,4 +68,5 @@ function calculator(operation, num1, num2) {
     default:
       console.log("Invalid operation!");
   }
+
 }
